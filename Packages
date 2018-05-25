@@ -1,3 +1,19 @@
+Package: appknox-dast
+Version: 0.1
+Priority: standard
+Section: Appknox
+Maintainer: Subho Halder <engineering@appknox.com>
+Depends: cycript (>=0.9.592), mobilesubstrate, network-cmds,  apt7, com.autopear.installipa (>=3.1-1), coreutils, com.conradkramer.open, syslogd, network-cmds, com.innoying.sbutils, com.tonykraft.prefsafety, kr.iolate.terminalactivator
+Provides: appknox-ios
+Architecture: iphoneos-arm
+Filename: Files//metapackage.deb
+Size: 848
+MD5sum: 065c736bd62a932b0a1e313a901409b2
+Description: Adds all dependencies required by Appknox to your iOS device.
+Name: iOS Default Config Metapackage
+Author: Appknox
+Homepage: https://www.appknox.com
+
 Package: com.appknox.proxy
 Version: 0.0.1-5+debug
 Section: System
