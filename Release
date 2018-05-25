@@ -1,0 +1,8 @@
+Origin: Appknox Cydia Repo
+Label: Appknox Cydia Repo
+Suite: stable
+Version: 1.0
+Date: Fri May 25 08:53:27 UTC 2018
+Architectures: iphoneos-arm
+Components: main
+Description: Appknox APT repository

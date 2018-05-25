@@ -1,0 +1,43 @@
+Package: com.appknox.proxy
+Version: 0.0.1-5+debug
+Section: System
+Maintainer: subho007
+Depends: 
+Architecture: iphoneos-arm
+Filename: Files//com.appknox.proxy_0.0.1-5+debug_iphoneos-arm.deb
+Size: 9028
+Installed-Size: 200
+MD5sum: 3443b096341460e91d8b870f03ac1fba
+Description: Appknox Proxy!!
+Name: appknox_proxy
+Author: subho007
+
+Package: curl
+Version: 7.53.1
+Priority: standard
+Section: Networking
+Maintainer: Appknox <engineering@appknox.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Architecture: iphoneos-arm
+Filename: Files//curl-manual-arm.deb
+Size: 2612386
+MD5sum: c7bc9d1c4db0195d9027b7e9885abbf2
+Description: flexible multi-protocol file transfers
+Name: cURL
+Homepage: http://curl.haxx.se/
+
+Package: openssl
+Version: 1.1.0f
+Priority: standard
+Section: Security
+Maintainer: Appknox <engineering@appknox.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: Files//openssl-manual-arm.deb
+Size: 2342286
+Installed-Size: 6164
+MD5sum: fb65ff10f993aeb716228c8496bb7dec
+Description: SSL library and cryptographic tools
+Name: OpenSSL Appknox
+
