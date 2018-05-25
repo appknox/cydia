@@ -8,7 +8,7 @@ This repo can be installed by following either the Automatic method or the manua
 
 ### Automatic Method
 
-[Click Here to Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.appknox.com/)
+[Click Here to Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.appknox.org/)
 
 ### Manual Instructions
 
@@ -16,7 +16,7 @@ This repo can be installed by following either the Automatic method or the manua
 2. Tap the `Sources` tab
 3. Tap the `Edit` button
 4. Tap the `Add` button
-5. Type: *cydia.appknox.com*
+5. Type: *cydia.appknox.org*
 6. Tap `Add Source`
 
 ## Authors and Contributors
