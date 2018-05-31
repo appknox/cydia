@@ -36,9 +36,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>= 4.0), gsc.armv7
 Architecture: iphoneos-arm
 Filename: Files//com.autopear.installipa_3.4.2-1+debug_iphoneos-arm.deb
-Size: 77738
+Size: 77720
 Installed-Size: 360
-MD5sum: 6900408286cc32e8519a96a355ba7400
+MD5sum: 7eaaab1f704ab711186a6a64a639470d
 Description: Install IPA from the command line.
 Name: IPA Installer Console
 Author: Merlin
