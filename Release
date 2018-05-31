@@ -1,6 +1,7 @@
 Origin: Appknox Cydia Repo
 Label: Appknox Cydia Repo
 Suite: stable
+Codename: appknox
 Version: 1.0
 Date: Fri May 25 08:53:27 UTC 2018
 Architectures: iphoneos-arm
