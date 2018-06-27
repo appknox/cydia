@@ -15,15 +15,15 @@ Author: Appknox
 Homepage: https://www.appknox.com
 
 Package: com.appknox.proxy
-Version: 0.0.1-5+debug
+Version: 0.0.2-2+debug
 Section: System
 Maintainer: subho007
 Depends: 
 Architecture: iphoneos-arm
-Filename: Files//com.appknox.proxy_0.0.1-5+debug_iphoneos-arm.deb
-Size: 9028
+Filename: Files//com.appknox.proxy_0.0.2-2+debug_iphoneos-arm.deb
+Size: 9242
 Installed-Size: 200
-MD5sum: 3443b096341460e91d8b870f03ac1fba
+MD5sum: 894e47a3a8c9af01302f04ef12d5a1e6
 Description: Appknox Proxy!!
 Name: appknox_proxy
 Author: subho007
