@@ -29,19 +29,19 @@ Name: appknox_proxy
 Author: subho007
 
 Package: com.autopear.installipa
-Version: 3.4.2-1+debug
+Version: 3.4.3-1+debug
 Priority: optional
 Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>= 4.0), gsc.armv7
 Architecture: iphoneos-arm
-Filename: Files//com.autopear.installipa_3.4.2-1+debug_iphoneos-arm.deb
-Size: 77720
+Filename: Files//com.autopear.installipa_3.4.3-1+debug_iphoneos-arm.deb
+Size: 77770
 Installed-Size: 360
-MD5sum: 7eaaab1f704ab711186a6a64a639470d
+MD5sum: d599e392f0d3d99679b980f16f28dcf5
 Description: Install IPA from the command line.
 Name: IPA Installer Console
-Author: Merlin
+Author: Merlin, Appknox
 
 Package: curl
 Version: 7.53.1
