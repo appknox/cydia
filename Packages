@@ -73,19 +73,19 @@ Description: SSL library and cryptographic tools
 Name: OpenSSL Appknox
 
 Package: veency
-Version: 0.9.3500
+Version: 0.9.3501
 Priority: optional
 Section: Networking
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: mobilesubstrate (>= 0.9.2966), firmware (<< 7.0) | mobilesubstrate (>= 0.9.5001), firmware (>= 7.0) | com.saurik.iphone.ske, preferenceloader (>= 2.1.0), firmware (<< 7.0) | preferenceloader (>= 2.2.2), jp.ashikase.mousesupport | firmware (<< 3.0), firmware (<< 7.0) | jp.ashikase.mousesupport (>= svn.r217), libstatusbar | firmware (<< 4.0), firmware (<< 6.0) | ch.ringwald.springboardaccess
+Depends: mobilesubstrate (>= 0.9.2966), firmware (<< 7.0) | mobilesubstrate (>= 0.9.5001), firmware (>= 7.0) | com.saurik.iphone.ske, preferenceloader (>= 2.1.0), firmware (<< 7.0) | preferenceloader (>= 2.2.2), jp.ashikase.mousesupport | firmware (<< 3.0), firmware (<< 7.0) | jp.ashikase.mousesupport (>= 1.0), libstatusbar | firmware (<< 4.0), firmware (<< 6.0) | ch.ringwald.springboardaccess
 Conflicts: com.saurik.iphone.vncs
 Replaces: com.saurik.iphone.vncs
 Architecture: iphoneos-arm
-Filename: Files//veency_0.9.3500.deb
-Size: 489474
+Filename: Files//veency_0.9.3501.deb
+Size: 621366
 Installed-Size: 1160
-MD5sum: 68b31003bc4de7e7cd566eb055f4bf1f
+MD5sum: 5acf5393b304e353c1a8d96b303c4b4a
 Description: a VNC /server/ for the iPhone
 Name: Veency
 Author: Jay Freeman (saurik) <saurik@saurik.com>
