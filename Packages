@@ -43,6 +43,17 @@ Description: Install IPA from the command line.
 Name: IPA Installer Console
 Author: Merlin, Appknox
 
+Package: com.ichitaso.dropbear
+Version: 1.0
+Section: System
+Depends: firmware (>= 1.0)
+Architecture: iphoneos-arm
+Filename: Files//Dropbear.deb
+Size: 1443794
+MD5sum: 0d43133f44c23f099452d31601672c60
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
 Package: curl
 Version: 7.53.1
 Priority: standard
