@@ -14,6 +14,21 @@ Name: iOS Default Config Metapackage
 Author: Appknox
 Homepage: https://www.appknox.com
 
+Package: com.appknox.open
+Version: 1.2.0
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Architecture: iphoneos-arm
+Filename: Files//com.appknox.open_1.2.0_iphoneos-arm.deb
+Size: 3362
+Installed-Size: 196
+MD5sum: 56af8a37bd033a0a241280e4d4059af7
+Description: launch apps from the command-line
+Name: Open from Appknpx
+Author: Appknox <engineering@appknox.com>
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
+
 Package: com.appknox.proxy
 Version: 0.0.3
 Section: System
