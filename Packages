@@ -58,6 +58,20 @@ Description: Install IPA from the command line.
 Name: IPA Installer Console
 Author: Merlin, Appknox
 
+Package: com.cosmosgenius.screendump
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Sharat M R <cosmosgenius@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files//com.cosmosgenius.screendump_0.0.2_iphoneos-arm.deb
+Size: 1188454
+Installed-Size: 3100
+MD5sum: 69b28abe9977ca09df8212decc80312f
+Description: VNC for ios
+Name: screendump
+Author: Sharat M R <cosmosgenius@gmail.com>
+
 Package: com.ichitaso.dropbear
 Version: 1.0
 Section: System
