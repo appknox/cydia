@@ -15,16 +15,16 @@ Author: Appknox
 Homepage: https://www.appknox.com
 
 Package: com.appknox.open
-Version: 1.2.0
+Version: 1.2.1
 Section: System
 Maintainer: Appknox <engineering@appknox.com>
 Architecture: iphoneos-arm
-Filename: Files//com.appknox.open_1.2.0_iphoneos-arm.deb
-Size: 3362
+Filename: Files//com.appknox.open_1.2.1_iphoneos-arm.deb
+Size: 3352
 Installed-Size: 196
-MD5sum: 56af8a37bd033a0a241280e4d4059af7
+MD5sum: bc177462a9c1f75eaa868c2f5c325ea7
 Description: launch apps from the command-line
-Name: Open from Appknpx
+Name: Open from Appknox
 Author: Appknox <engineering@appknox.com>
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
