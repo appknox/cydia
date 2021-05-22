@@ -5,7 +5,9 @@ use strict;
 
 use IO::Handle;
 use IO::File;
+use FindBin 1.51 qw( $RealBin );
 
+use lib $RealBin;
 my $version="1.13.25"; # This line modified by Makefile
 my $dpkglibdir="/usr/lib/dpkg"; # This line modified by Makefile
 

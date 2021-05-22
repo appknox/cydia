@@ -145,3 +145,20 @@ Name: Veency
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/veency/
 
+Package: com.zjx.ioscontrol
+Version: 0.0.7-10
+Architecture: iphoneos-arm
+Maintainer: Jason Z
+Installed-Size: 70076
+Depends: sudo, mobilesubstrate
+Conflicts: zxtouch-python3.7, libpython3.7, libactivator (<< 1.8.3)
+Filename: ./Files/com.zjx.ioscontrol_0.0.7-10_iphoneos-arm.deb
+Size: 13374176
+MD5sum: a6044c40ba7620ed3ab4bbda0621b02d
+SHA1: 9d41558244de85b2e03bc01ea598b1692131624f
+SHA256: e2e51e75b8e5e4111c751a2ca488be7193a9bac714225d395964d55ee0003622
+Section: Utilities
+Description: ZXTouch Main Application
+Tag: role::developer
+Author: Jason Z
+Name: ZXTouch
