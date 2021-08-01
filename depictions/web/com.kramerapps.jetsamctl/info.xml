@@ -1,0 +1,14 @@
+<package>
+	<id>com.kramerapps.jetsamctl</id>
+	<name>Jetsamctl</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>6.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Modify Jetsam constraints</shortDescription>
+	<descriptionlist>
+		<description>Modify Jetsam constraints.</description>
+	</descriptionlist>
+</package>

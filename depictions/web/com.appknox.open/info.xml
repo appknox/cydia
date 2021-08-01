@@ -1,0 +1,21 @@
+<package>
+	<id>com.appknox.open</id>
+	<name>Open Command modded by Appknox</name>
+	<version>1.2.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>launch apps from the command-line</shortDescription>
+	<descriptionlist>
+		<description>Opens or launches and switches to an application from the command-line.</description>
+		<description><![CDATA[
+Usage: open [bundle_identifier]
+Example: Launching Safari
+# open com.apple.mobilesafari
+		]]>
+		</description>
+		<description>This is a console package. Commands can be used from SSH or MobileTerminal</description>
+	</descriptionlist>
+</package>

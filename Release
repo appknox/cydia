@@ -1,9 +1,37 @@
-Origin: Appknox Cydia Repo
-Label: Appknox Cydia Repo
-Suite: stable
-Codename: appknox
-Version: 1.0
-Date: Fri May 25 08:53:27 UTC 2018
 Architectures: iphoneos-arm
+Codename: APPKNOX
 Components: main
-Description: Appknox APT repository
+Date: Sun, 01 Aug 2021 22:21:52 +0000
+Description: Appknox Public Cydia Repo
+Label: Appknox Cydia Repo
+Origin: Appknox Cydia
+Suite: stable
+Version: 2.0
+MD5Sum:
+ 0994d72b37de88436e9cd45c57fe0d56             3477 Packages
+ 74e42f4bc8ce7efd6530dc8c12cb8218             1592 Packages.bz2
+ b1615ca0d3131d19bcff3982a7dfca73             1519 Packages.gz
+ 58bc63d4432a039f2f811a1cce52b760             1508 Packages.xz
+ 8e84fe3030ed5851d9cfd7b07830249d             1479 Packages.zst
+ 96eb00ad775ffd0ac45de54ac61c116a              215 Release
+SHA1:
+ a7848937caf053fd53d83e66ebd76e8b80a137f4             3477 Packages
+ b78e6f431a355b0c9fc5f129efd4e58727a96e3c             1592 Packages.bz2
+ b6de3d0dea34611cba3d3cb8e3f9849f397e345e             1519 Packages.gz
+ 4a08e6ea55b52421dbe1042a96b8ae97e4f928e0             1508 Packages.xz
+ b7c5abf3456d0197c5771c16f571bcd8ba4c7f74             1479 Packages.zst
+ 3824c926f3d38b09ad2a0116b3fb621a43ca6261              215 Release
+SHA256:
+ e6166f1bd33fb30428faf43b26ed8cc9610989ba5da2279f1da40a1ea8c7da88             3477 Packages
+ 768c911673dc7141b5f4f9069fbd292c1e681564be976f6cd9f2c5d5857b52f7             1592 Packages.bz2
+ 8c8d0ef3ce870bd5c962b1b058e50a7ce88e3c19fc1cf39df918b4d6c765b0b2             1519 Packages.gz
+ d7590800012a81e554e5076aff12c3303f10c1d96d998fa049c3999a5ad36813             1508 Packages.xz
+ dbdfde615a4f78925c393d15ea9fb19dd76f24837caab060dda531e5023c6f47             1479 Packages.zst
+ ff7e69ffc21befbb79b5f313959c6bb3cd37d4d513f1017fbed675f73e9eed59              215 Release
+SHA512:
+ 44a728ba90cccf3f8adab0b957a58d5f5317718331ba76baf60420bf3943873b4241ababa6d912f77935046bbcc45e09b0aaa8614625dd7eee8728d7dd3a692f             3477 Packages
+ 21a46284824fdab744806a5b7314f2b1c2eba86e545293db52ea5cb3ab82a1904036bb69e9ab55c59e4343f16cf39ae12106113866cbd2d003eba3ec7af1754a             1592 Packages.bz2
+ cf2b9d20b7c87a1c64ac5a11f3267bd73a8e56cd5f113d805f853df91c2dd17cc78994ee11dad3719c8479c94ac53165b0f9a54b64b360e06c6b7177d6d8d41e             1519 Packages.gz
+ b5b2b2146e3f02fe419d0c1e9a1e38241cbe422f093efd6b303a74740207be38216071cd2a5c54bd267ed9ff04680655cb2c2f72379184364bf7aa56380bc17a             1508 Packages.xz
+ d8136a7a4dda9fea552908da96fe0795ad836a321490ba5d72e17a022520825727e10696a09780e27b5b92286ed8c4c772139df33754b42f6a3f5918ebda70f4             1479 Packages.zst
+ 39a148f0157cc2ce87e3d2b995d46da0095c39a61c747eda1eec4fab617405645498451b9c1e100307c06b99a93221617089ad9af9ba8f3efc82f4900ef41922              215 Release
