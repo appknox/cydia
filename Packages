@@ -1,164 +1,70 @@
-Package: appknox-dast
-Version: 0.1
-Priority: standard
-Section: Appknox
-Maintainer: Subho Halder <engineering@appknox.com>
-Depends: cycript (>=0.9.592), mobilesubstrate, network-cmds,  apt7, com.autopear.installipa (>=3.1-1), coreutils, com.conradkramer.open, syslogd, network-cmds, com.innoying.sbutils, com.tonykraft.prefsafety, kr.iolate.terminalactivator
-Provides: appknox-ios
-Architecture: iphoneos-arm
-Filename: Files//metapackage.deb
-Size: 848
-MD5sum: 065c736bd62a932b0a1e313a901409b2
-Description: Adds all dependencies required by Appknox to your iOS device.
-Name: iOS Default Config Metapackage
-Author: Appknox
-Homepage: https://www.appknox.com
-
 Package: com.appknox.open
+Architecture: iphoneos-arm
 Version: 1.2.1
 Section: System
 Maintainer: Appknox <engineering@appknox.com>
-Architecture: iphoneos-arm
-Filename: Files//com.appknox.open_1.2.1_iphoneos-arm.deb
-Size: 3352
-Installed-Size: 196
-MD5sum: bc177462a9c1f75eaa868c2f5c325ea7
+Installed-Size: 68
+Filename: ./debians/com.appknox.open_1.2.1_iphoneos-arm.deb
+Size: 2776
+MD5sum: fed631ff578e84efd38b3410fa80b0fd
+SHA1: 8fca563b0a062b53803c16e59d53dd9759f5b3d2
+SHA256: 44923f66baa0755657fcbf270cd7a56eb20594aebafc7a41b5a9e034bd43225a
+SHA512: 4521404c1a1194e120d1b07524fc8f7a47f9669be245b55dd44d48587417fefbb5983ee8ca206ca5a2d3dc46c0b019f497851c5fee33151488531f95d11baf88
 Description: launch apps from the command-line
-Name: Open from Appknox
+Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=openData
+Name: Open from Appknox
 
 Package: com.appknox.proxy
-Version: 0.0.3
+Architecture: iphoneos-arm
+Version: 0.0.4
 Section: System
-Maintainer: subho007
-Depends: 
-Architecture: iphoneos-arm
-Filename: Files//com.appknox.proxy_0.0.3_iphoneos-arm.deb
-Size: 7816
+Maintainer: Appknox <engineering@appknox.com>
 Installed-Size: 200
-MD5sum: 6855887130839949b2f039acad9afb08
-Description: Appknox Proxy!!
+Depends:
+Filename: ./debians/com.appknox.proxy_0.0.4_iphoneos-arm.deb
+Size: 8368
+MD5sum: 8577affe2a47475b490cce7ef693291d
+SHA1: d56dacde327db51d46cbbb3b1a94aaf0465219cf
+SHA256: a16b6996c10cf39ab86491be58b1475b52babf52e5ef3262d1ea19a907c2b99c
+SHA512: b0f55dc0c513544e154c22b63e9452501aaeb8c4a9841c8ef4b134f084bf71ed3dcd664b0cc4ff604e33be63ec46e00dfb9e8f99ea9193f4691cc8262ab3ed44
+Description: Update iOS System Proxy
+Tag: purpose::console, role::hacker
 Name: appknox_proxy
-Author: subho007
+Author: Appknox <engineering@appknox.com>
 
-Package: com.autopear.installipa
-Version: 3.4.3-1+debug
-Priority: optional
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Pre-Depends: firmware (>= 4.0), gsc.armv7
+Package: com.cosmosgenius.screendump13
 Architecture: iphoneos-arm
-Filename: Files//com.autopear.installipa_3.4.3-1+debug_iphoneos-arm.deb
-Size: 77770
-Installed-Size: 360
-MD5sum: d599e392f0d3d99679b980f16f28dcf5
-Description: Install IPA from the command line.
-Name: IPA Installer Console
-Author: Merlin, Appknox
-
-Package: com.cosmosgenius.screendump
-Version: 0.0.3
+Version: 0.0.4
 Section: Tweaks
 Maintainer: Sharat M R <cosmosgenius@gmail.com>
+Installed-Size: 3260
 Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: Files//com.cosmosgenius.screendump_0.0.3_iphoneos-arm.deb
-Size: 1187760
-Installed-Size: 3100
-MD5sum: 8d3352da1684c7ce457bb8d2e8bc4523
+Filename: ./debians/com.cosmosgenius.screendump13_0.0.4_iphoneos-arm.deb
+Size: 1215550
+MD5sum: f309f3c8dc18d9a8470bdb6738a5de9b
+SHA1: 258867de8fa8b017a599ecccf14c9a7545782232
+SHA256: 312bdf592854675165a3f64fc7c0d2f476531a337a9f77f6892fdeeff9f2817a
+SHA512: d0b56a82244ea4e36094a3933a6f8f3d97627eb2070bf09adae91fd0bcf9ca9291d0215a397a764401f117b0b0db6d40deee67f812d57c474b35b72966363235
 Description: VNC for ios
 Name: screendump
 Author: Sharat M R <cosmosgenius@gmail.com>
 
-Package: com.ichitaso.dropbear
-Version: 1.0
+Package: com.kramerapps.jetsamctl
+Architecture: iphoneos-arm
+Version: 0.1-1
 Section: System
-Depends: firmware (>= 1.0)
-Architecture: iphoneos-arm
-Filename: Files//Dropbear.deb
-Size: 1443794
-MD5sum: 0d43133f44c23f099452d31601672c60
-Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
-Name: Dropbear
+Maintainer: Conrad Kramer
+Installed-Size: 196
+Depends: firmware (>= 6.0)
+Filename: ./debians/com.kramerapps.jetsamctl_0.1-1_iphoneos-arm.deb
+Size: 6808
+MD5sum: 34e788aa25b031f57f3f6ca11e9f59bd
+SHA1: 82ae3b3f440cd304274f650c5b67d4793ff459e0
+SHA256: fe6b0701869b802a3c6f66b8259d33da15c72a4e6b6e7c7b478f9b7886d221bc
+SHA512: efb56c2f41dda735befd67a5dd190a15b88c9e01c13f00b2deb5dcd2ebf0d4741fd90db506b82b84f98ff32b684f5a15a1b9ef3b125361847e4508c8a61815dd
+Description: Modify Jetsam constraints
+Tag: role::hacker
+Name: jetsamctl
+Author: Conrad Kramer <conrad@kramerapps.com>
 
-Package: curl
-Version: 7.53.1
-Priority: standard
-Section: Networking
-Maintainer: Appknox <engineering@appknox.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl
-Architecture: iphoneos-arm
-Filename: Files//curl-manual-arm.deb
-Size: 2612386
-MD5sum: c7bc9d1c4db0195d9027b7e9885abbf2
-Description: flexible multi-protocol file transfers
-Name: cURL
-Homepage: http://curl.haxx.se/
-
-Package: openssl
-Version: 1.1.0f
-Priority: standard
-Section: Security
-Maintainer: Appknox <engineering@appknox.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Architecture: iphoneos-arm
-Filename: Files//openssl-manual-arm.deb
-Size: 2342286
-Installed-Size: 6164
-MD5sum: fb65ff10f993aeb716228c8496bb7dec
-Description: SSL library and cryptographic tools
-Name: OpenSSL Appknox
-
-Package: org.coolstar.scp-sftp-dropbear
-Version: 1.0.2
-Section: System
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: openssl
-Conflicts: openssh
-Architecture: iphoneos-arm
-Filename: Files//org.coolstar.scp-sftp-dropbear_1.0.2.deb
-Size: 196386
-MD5sum: 4221c938339c2e21cd4758e2b4a41212
-Description: Add SCP and SFTP for use with dropbear SSH server. (Useful with Yalu jailbreaks).
-Name: SCP and SFTP for dropbear
-Author: CoolStar <coolstarorganization@gmail.com>
-
-Package: veency
-Version: 0.9.3500
-Priority: optional
-Section: Networking
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: mobilesubstrate (>= 0.9.2966), firmware (<< 7.0) | mobilesubstrate (>= 0.9.5001), firmware (>= 7.0) | com.saurik.iphone.ske, preferenceloader (>= 2.1.0), firmware (<< 7.0) | preferenceloader (>= 2.2.2), jp.ashikase.mousesupport | firmware (<< 3.0), firmware (<< 7.0) | jp.ashikase.mousesupport (>= svn.r217), libstatusbar | firmware (<< 4.0), firmware (<< 6.0) | ch.ringwald.springboardaccess
-Conflicts: com.saurik.iphone.vncs
-Replaces: com.saurik.iphone.vncs
-Architecture: iphoneos-arm
-Filename: Files//veency_0.9.3500.deb
-Size: 489474
-Installed-Size: 1160
-MD5sum: 68b31003bc4de7e7cd566eb055f4bf1f
-Description: a VNC /server/ for the iPhone
-Name: Veency
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/veency/
-
-Package: com.zjx.ioscontrol
-Version: 0.0.7-10
-Architecture: iphoneos-arm
-Maintainer: Jason Z
-Installed-Size: 70076
-Depends: sudo, mobilesubstrate
-Conflicts: zxtouch-python3.7, libpython3.7, libactivator (<< 1.8.3)
-Filename: ./Files/com.zjx.ioscontrol_0.0.7-10_iphoneos-arm.deb
-Size: 13374176
-MD5sum: a6044c40ba7620ed3ab4bbda0621b02d
-SHA1: 9d41558244de85b2e03bc01ea598b1692131624f
-SHA256: e2e51e75b8e5e4111c751a2ca488be7193a9bac714225d395964d55ee0003622
-Section: Utilities
-Description: ZXTouch Main Application
-Tag: role::developer
-Author: Jason Z
-Name: ZXTouch

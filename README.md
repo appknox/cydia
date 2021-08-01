@@ -21,5 +21,5 @@ This repo can be installed by following either the Automatic method or the manua
 
 ## Authors and Contributors
 
-* **Subho Halder** - *Initial work* - [Purpsubho007leBooth](https://github.com/subho007)
-* **AppleBetas** - *Inspired initial work from* - [AppleBetas Repo](https://github.com/AppleBetas/Repo)
+* **Subho Halder** - *Initial work* - [subho007](https://github.com/subho007)
+* **Repo.me** - *Inspired initial work from* - [revisitable/repo.me](https://github.com/revisitable/repo.me)

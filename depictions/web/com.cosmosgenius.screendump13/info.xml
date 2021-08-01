@@ -1,0 +1,18 @@
+<package>
+	<id>com.cosmosgenius.screendump13</id>
+	<name>Screendump</name>
+	<version>0.0.4</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
+	<shortDescription>VNC implemntation for ios</shortDescription>
+	<descriptionlist>
+		<description>VNC implemntation for ios.</description>
+	</descriptionlist>
+</package>

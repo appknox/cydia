@@ -1,0 +1,23 @@
+<package>
+	<id>com.appknox.proxy</id>
+	<name>Apknox Proxy</name>
+	<version>0.0.4</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Update iOS System Proxy via commandline</shortDescription>
+	<descriptionlist>
+		<description>Update iOS System Proxy via commandline.</description>
+		<description>It can be used via SSH or Terminal.</description>
+		<description><![CDATA[
+		usage:<br/> 
+		appknox_proxy <proxy_ip>
+		]]>
+		</description>
+	</descriptionlist>
+</package>

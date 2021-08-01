@@ -1,0 +1,14 @@
+<repo>
+    <footerlinks>
+        <link>
+            <name>Appknox</name>
+            <url>https://www.appknox.com/</url>
+            <iconclass>glyphicon glyphicon-cloud</iconclass>
+        </link>
+        <link>
+            <name>Support</name>
+            <url>mailto:support@appknox.com</url>
+            <iconclass>glyphicon glyphicon-cog</iconclass>
+        </link>
+    </footerlinks>
+</repo>
