@@ -41,11 +41,11 @@ Maintainer: Appknox <engineering@appknox.com>
 Installed-Size: 200
 Depends:
 Filename: ./debians/com.appknox.proxy_0.0.4_iphoneos-arm.deb
-Size: 8368
-MD5sum: 8577affe2a47475b490cce7ef693291d
-SHA1: d56dacde327db51d46cbbb3b1a94aaf0465219cf
-SHA256: a16b6996c10cf39ab86491be58b1475b52babf52e5ef3262d1ea19a907c2b99c
-SHA512: b0f55dc0c513544e154c22b63e9452501aaeb8c4a9841c8ef4b134f084bf71ed3dcd664b0cc4ff604e33be63ec46e00dfb9e8f99ea9193f4691cc8262ab3ed44
+Size: 8428
+MD5sum: 21075b215137cad3e7fffe30e9d8604d
+SHA1: 9fd8d2da1f52992afaeeaf591bc24618e58e1a85
+SHA256: df5caeec6d11a2810c215e7fad445b4f5a64bae7180449c8997beaabdf69a0af
+SHA512: c5935e5ca8206e6736cd5a3bd0e7b4cd3b6d87d9dd3d1292db6c280219b606f6cf7b8fe30cc858ced91d4d350b2a6d1b90a3eff825860e193ba2c70b9b1c75fe
 Description: Update iOS System Proxy
 Tag: purpose::console, role::hacker
 Name: appknox_proxy
