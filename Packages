@@ -51,6 +51,27 @@ Tag: purpose::console, role::hacker
 Name: appknox_proxy
 Author: Appknox <engineering@appknox.com>
 
+Package: com.autopear.installipa
+Architecture: iphoneos-arm
+Version: 3.4.3-1+debug
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 360
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debians/com.autopear.installipa_3.4.3-1+debug_iphoneos-arm.deb
+Size: 77770
+MD5sum: d599e392f0d3d99679b980f16f28dcf5
+SHA1: dbc7b058841bbb814abcecd6c386428cb59f49f0
+SHA256: 5db6578289dc14a3b61cbbec4424f27105f34110e9e4395041d480a5e34654fc
+SHA512: d97f3c32bfb2215d144e9f3af91098cb38a6e4691477b40dd66f52114f08a285645956627b8544021cc704463dc8a41768b4907f7a9986c9f1fa558bf3df5709
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin, Appknox
+Name: IPA Installer Console
+dev: lonelystars
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
 Package: com.cosmosgenius.screendump13
 Architecture: iphoneos-arm
 Version: 0.0.4
