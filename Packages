@@ -34,6 +34,24 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Appknox Metapackage
 
+Package: com.appknox.meta
+Architecture: iphoneos-arm
+Version: 0.0.3
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 4
+Depends: mobilesubstrate, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds
+Filename: ./debians/com.appknox.meta_0.0.3_iphoneos-arm.deb
+Size: 852
+MD5sum: b355243221447e077c6e2f6a8cab1ee3
+SHA1: 758a2de87c224015a06f7cc011516ab51cff2f8d
+SHA256: e687cc77f08e7395eededc3d943c57b26838648f3a0f702b0bf0e941950f0c42
+SHA512: 967b177951fe34b1816dc5507cb7498642d9a8c29f3796864d58620dc56c02eab7dc093b56b23e66d18e57eb13b475bab82d03b9b5ccb0b6a9b3077d9d9fcd45
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
 Package: com.appknox.open
 Architecture: iphoneos-arm
 Version: 1.2.1
