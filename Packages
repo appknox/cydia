@@ -52,6 +52,24 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Appknox Metapackage
 
+Package: com.appknox.meta
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 4
+Depends: mobilesubstrate, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1)
+Filename: ./debians/com.appknox.meta_0.0.4_iphoneos-arm.deb
+Size: 884
+MD5sum: 2212e9d774cade0cde8bd70f45b5ce90
+SHA1: fa03f71f480b95d254285f84df7de72e1da92d03
+SHA256: 33457a58d408c7e17908733e84795a66d2f2632530b766bc7295615f9e3473db
+SHA512: ca99fec55100096e9223467bc246c513cbb64b95f433a0454d0d827c12991cfcb8e469c6a56b9b406ac00c0161a68caed97fd587dc2d4f2944c70cd5f1e773df
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
 Package: com.appknox.open
 Architecture: iphoneos-arm
 Version: 1.2.1
@@ -142,4 +160,21 @@ Description: Modify Jetsam constraints
 Tag: role::hacker
 Name: jetsamctl
 Author: Conrad Kramer <conrad@kramerapps.com>
+
+Package: me.noobpk.hiddenjailbreak
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: noobpk <ltp.noobpk@gmail.com>
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), applist, ws.hbang.common
+Filename: ./debians/me.noobpk.hiddenjailbreak_1.0.1_iphoneos-arm.deb
+Size: 66082
+MD5sum: 7446d6e5f00bc6c5af1b56dffa0cd48f
+SHA1: 4631ab34720b6e10f0cc1306189286890498c6a0
+SHA256: 5bfa6e4f555de2e4a2f2ea24b25f46df519f5fc40370199a705c1408de9e0b1b
+SHA512: e7a84dba70432936fb8f73eb8284897071d223c5c3fafee080143ec997660f2e1c59ee30488277db095219f5a1b08c2d3210c888835586ac18e03506ddac3ec3
+Description: A Bypass Jailbreak Detection Tweak!
+Name: HiddenJailbreak
+Author: Lê Thành Phúc <ltp.noobpk@gmail.com>
 
