@@ -178,3 +178,20 @@ Description: A Bypass Jailbreak Detection Tweak!
 Name: HiddenJailbreak
 Author: Lê Thành Phúc <ltp.noobpk@gmail.com>
 
+Package: me.noobpk.hiddenjailbreak
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: noobpk <ltp.noobpk@gmail.com>
+Installed-Size: 608
+Depends: mobilesubstrate (>= 0.9.5000), applist, ws.hbang.common
+Filename: ./debians/me.noobpk.hiddenjailbreak_1.0.2_iphoneos-arm.deb
+Size: 61818
+MD5sum: 1fe0c2b9c52c4037154e406780b0fd49
+SHA1: 3ec3484e138d71abeafca821da98a6b515d3979f
+SHA256: 9989b7fab898f53fda429c3c182f00015d1ff6b21effd60aad67aa827ab419e8
+SHA512: 3e133db76ec5fc4f65e49a73fbe1a98ff8140f77096a839bc295e2b65ca31c6bc971f3044f68931dd1ffa3cacfd7d99c5e75d4fbca3f6ea9fda03299202153bf
+Description: A Bypass Jailbreak Detection Tweak!
+Name: HiddenJailbreak
+Author: Lê Thành Phúc <ltp.noobpk@gmail.com>
+
