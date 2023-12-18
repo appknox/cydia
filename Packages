@@ -105,6 +105,40 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Open from Appknox
 
+Package: com.appknox.open
+Architecture: iphoneos-arm
+Version: 1.3+rootful
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 68
+Filename: ./debians/com.appknox.open_1.3+rootful_iphoneos-arm.deb
+Size: 2734
+MD5sum: b57a7cd9a61aefd604a47506c16bec53
+SHA1: ca547dd381cc4f161040a20afa048520adc1c3fc
+SHA256: d6b2d425fd99d9174ac84002e834c216693ba69f01205e68dd8fe0f7ca7ade25
+SHA512: 6bba3882d17db59becbbb9f290e9ccb3a2586ad59dd160714c7a07840f457027451140e366a0df601b28dabef5a7d12dbb344407a305e0e6406ebd228b9fbd56
+Description: launch apps from the command-line
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Open from Appknox
+
+Package: com.appknox.open
+Architecture: iphoneos-arm64
+Version: 1.3+rootless
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 68
+Filename: ./debians/com.appknox.open_1.3+rootless_iphoneos-arm64.deb
+Size: 2794
+MD5sum: 7350d5088d52da1247378b5309a34c53
+SHA1: 6acf22dd639551a7e71829d4fdcd3c97358c00a9
+SHA256: 90df5c7c965425521420ebb5abb10e3fc412c7a7df2aad8a4a596378848fa744
+SHA512: 8dbf66a77c51f6b7f121738bf9cc93f48f29d9fd8f063b5500576a5f21b7a97e13f4f90d10d140c63673a211c99e01beedf1a268910ac4ebce0f84754e32bdb3
+Description: launch apps from the command-line
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Open from Appknox
+
 Package: com.appknox.proxy
 Architecture: iphoneos-arm
 Version: 0.0.4
@@ -118,6 +152,42 @@ MD5sum: 21075b215137cad3e7fffe30e9d8604d
 SHA1: 9fd8d2da1f52992afaeeaf591bc24618e58e1a85
 SHA256: df5caeec6d11a2810c215e7fad445b4f5a64bae7180449c8997beaabdf69a0af
 SHA512: c5935e5ca8206e6736cd5a3bd0e7b4cd3b6d87d9dd3d1292db6c280219b606f6cf7b8fe30cc858ced91d4d350b2a6d1b90a3eff825860e193ba2c70b9b1c75fe
+Description: Update iOS System Proxy
+Tag: purpose::console, role::hacker
+Name: appknox_proxy
+Author: Appknox <engineering@appknox.com>
+
+Package: com.appknox.proxy
+Architecture: iphoneos-arm
+Version: 0.0.5+rootful
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 88
+Depends:
+Filename: ./debians/com.appknox.proxy_0.0.5+rootful_iphoneos-arm.deb
+Size: 4970
+MD5sum: 9d5a84535949776c14f395fa68a65124
+SHA1: 99a49ff49dc14bd347c3a14e7231004503a31b6c
+SHA256: 2bb0be8131ea45a633b3ae520b9f311e8a750e9a18f43baa4fd790e8058cd23f
+SHA512: 885adfcf933515407c4342764b85d9c2136389a554349f0dbaa7bcfac0067132df720dbe219e622767304b8b80442f2905c14f6e92b0d50cb64421e02c745f6f
+Description: Update iOS System Proxy
+Tag: purpose::console, role::hacker
+Name: appknox_proxy
+Author: Appknox <engineering@appknox.com>
+
+Package: com.appknox.proxy
+Architecture: iphoneos-arm64
+Version: 0.0.5+rootless
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 88
+Depends:
+Filename: ./debians/com.appknox.proxy_0.0.5+rootless_iphoneos-arm64.deb
+Size: 5020
+MD5sum: a3e9cdbd3f84cf45b9f019190eec0bb4
+SHA1: a2e56ac7c9fe49b6f951b02aa9ee1258061a9b2c
+SHA256: 0b7de966058683953f3452568be36d1a629d1e780ba4c4848b706e2b69e37166
+SHA512: 7735840c9338dc8b66fc1e660a7a01f7ad61cda12090b473094570bae1ff01f12ac237ca4f76311ea17ebef6393c61ef6d643ca2a15f34a00c6f8e0e6f4a4da6
 Description: Update iOS System Proxy
 Tag: purpose::console, role::hacker
 Name: appknox_proxy
@@ -143,6 +213,82 @@ Author: Merlin, Appknox
 Name: IPA Installer Console
 dev: lonelystars
 Sponsor: thebigboss.org <http://thebigboss.org/>
+
+Package: com.autopear.installipa
+Architecture: iphoneos-arm
+Version: 4.0.0+rootful
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 140
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debians/com.autopear.installipa_4.0.0+rootful_iphoneos-arm.deb
+Size: 28916
+MD5sum: 2b92546e5e779469b11a766853a191cc
+SHA1: ab524b138f879760acf04dfb8bbc58b61e92087c
+SHA256: 98cfe37251b4aba64ce484867383481229beb0f0b581b6f7a18ec1a58e85bdbe
+SHA512: 7f46c4171fc7b90101d06e9085ff625cc807c5dea1cd049841bb47ac2b5c0cded31c34ce163ade99d02e75b835c1c33c9b2bac34fdda934504c2144e9bbd1b4f
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin, Appknox
+Name: IPA Installer Console
+dev: lonelystars
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
+Package: com.autopear.installipa
+Architecture: iphoneos-arm64
+Version: 4.0.0+rootless
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 140
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debians/com.autopear.installipa_4.0.0+rootless_iphoneos-arm64.deb
+Size: 29010
+MD5sum: 9d406dce19673b9aa2484feb247974f7
+SHA1: 5d39e3a46e023d8b4015966081d5a06363681e12
+SHA256: e41d52713110d5d4f201c3ac9416dc3f7cdc7b5a00ea0b12947e5ee9eeabcb45
+SHA512: b5d634a000bdbe4253b08ca294824baa8381e9784f0a50f405638cc85b44bbc68a1c6c96e62746d7f42f116871b4928070b09be90129ecc16286df982ba73bb5
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin, Appknox
+Name: IPA Installer Console
+dev: lonelystars
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
+Package: com.cosmosgenius.screendump13
+Architecture: iphoneos-arm
+Version: 0.0.4-rootful
+Section: Tweaks
+Maintainer: Sharat M R <cosmosgenius@gmail.com>
+Installed-Size: 3240
+Depends: preferenceloader
+Filename: ./debians/com.cosmosgenius.screendump13_0.0.4-rootful_iphoneos-arm.deb
+Size: 1215646
+MD5sum: 3f47bc0b06d04e89d7d0ecfe7b9813ae
+SHA1: b11eedc4a00e75f5e3d274fa5d1e4e201d33ffb0
+SHA256: 60260c112c03e19eaee93517cc6e3ce49477479d336f69a324a1bf3825c50dba
+SHA512: a2fe0e5951147e1c5792d1dcc903c3d90f3154ef71ce80e0d8a1996326f0572491edc93903cc91fb1f71b902f72ac0b8940c466ffb7598ee6cb4758fabe3b6aa
+Description: VNC for ios
+Name: screendump
+Author: Sharat M R <cosmosgenius@gmail.com>
+
+Package: com.cosmosgenius.screendump13
+Architecture: iphoneos-arm64
+Version: 0.0.4-rootless
+Section: Tweaks
+Maintainer: Sharat M R <cosmosgenius@gmail.com>
+Installed-Size: 3240
+Depends: preferenceloader
+Filename: ./debians/com.cosmosgenius.screendump13_0.0.4-rootless_iphoneos-arm64.deb
+Size: 1215866
+MD5sum: f7f90a953af0edc8ec835e3ea777bc23
+SHA1: 27b99f5516328509b642c2c12b5df60c117a2722
+SHA256: f72d6634177f87824057d7e9ca8e8548db9c1e8b671121ca11dc5f7c022e4276
+SHA512: c502bf28c83208792c74c9a8d9d70ebfd09cbe14c5e62e366d6c98098b32b18a7a528dde0e79c5d0a5e41e3469a42a2eb843315a76463077c86ca66ea2956c4e
+Description: VNC for ios
+Name: screendump
+Author: Sharat M R <cosmosgenius@gmail.com>
 
 Package: com.cosmosgenius.screendump13
 Architecture: iphoneos-arm
