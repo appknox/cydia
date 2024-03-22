@@ -106,6 +106,41 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Appknox Metapackage
 
+Package: com.appknox.meta
+Architecture: iphoneos-arm
+Version: 1.0.0+rootful
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 4
+Depends: com.ex.substitute, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), libactivator (>=1.9.13)
+Filename: ./debians/com.appknox.meta_1.0.0+rootful_iphoneos-arm.deb
+Size: 886
+MD5sum: f6efe31d2895cb3afcfe7658ca510fde
+SHA1: d476a99fbb29a48a3b939e6de6943822787e3985
+SHA256: b808a4441bcca2b9d4c17409b18c68099f8ba4458b74160246a38279927e9e50
+SHA512: dc81f99601c1ade27e37c7876b486afcde765a4bb33445575c53b06457d262989dbae2cca8f80c4d8970f0f1fd2b6f1829b13550c1b8a03e18d1b9337d6e1ca9
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
+Package: com.appknox.meta
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Depends: preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), com.opa334.altlist
+Filename: ./debians/com.appknox.meta_1.0.0+rootless_iphoneos-arm64.deb
+Size: 884
+MD5sum: 72ebbc4e6d16478553d7180dbeba9296
+SHA1: 4b98a03b6fc1b72811ff1826a7aa4873fa918389
+SHA256: daae4f3fe25df0385feeef228ef658355b859de8669fad8f36d46a7f9442e568
+SHA512: a76477f0689b6197eafa0780670d38ecbe7a20d33f523c64c7edd0b0890e2723f838c114fd2d2cf991adf2ab7989eb3340cc22e538effadc9dec320867d2a219
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
 Package: com.appknox.open
 Architecture: iphoneos-arm
 Version: 1.2.1
