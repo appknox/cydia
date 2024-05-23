@@ -309,6 +309,48 @@ Name: IPA Installer Console
 dev: lonelystars
 Sponsor: thebigboss.org <http://thebigboss.org/>
 
+Package: com.autopear.installipa
+Architecture: iphoneos-arm
+Version: 4.0.1+rootful
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 124
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debians/com.autopear.installipa_4.0.1+rootful_iphoneos-arm.deb
+Size: 28362
+MD5sum: a816d7c2173cd09551f938b97172c99b
+SHA1: e9d24c746759b2ac6e190c8973c54a950769f540
+SHA256: 6b254ea960c82916c67d71e2feff4339d629339c32615bf21bdeb8383ff57370
+SHA512: 46fc03ca088475c5c11242fee5796e3b14a7c9f84d9f509b5c60d7dfbc0511162f472f5c0359b414d64f5f2f0fc4d23a89032bc57304e5391566e92d68f73766
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin, Appknox
+Name: IPA Installer Console
+dev: lonelystars
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
+Package: com.autopear.installipa
+Architecture: iphoneos-arm64
+Version: 4.0.1+rootless
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 124
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debians/com.autopear.installipa_4.0.1+rootless_iphoneos-arm64.deb
+Size: 28426
+MD5sum: da70085d49753a19bcfac8d5231b86b8
+SHA1: 78500846cff2078793417516cf8024a44daea25f
+SHA256: d07df0e5e3d22f6f656ab4fcba05005ec9ab63e1a85e9ce248c3402903e304c6
+SHA512: 7cdd834a670ea6214122e70bcd0ea01e43e77b5863925d686c5fc00e68dcea2088578eed8e17e0e544caf7aea8a2db56b82e78c656c956b6d21040d69e84d7de
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin, Appknox
+Name: IPA Installer Console
+dev: lonelystars
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
 Package: com.cosmosgenius.screendump13
 Architecture: iphoneos-arm
 Version: 0.0.4-rootful
