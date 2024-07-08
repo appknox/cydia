@@ -559,6 +559,42 @@ Description: A Bypass Jailbreak Detection Tweak!
 Name: HiddenJailbreak
 Author: Lê Thành Phúc <ltp.noobpk@gmail.com>
 
+Package: moe.misty.sslkillswitch3
+Architecture: iphoneos-arm
+Version: 1.4+rootful
+Section: Tweaks
+Maintainer: NyaMisty <misty@misty.moe>
+Installed-Size: 196
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Filename: ./debians/moe.misty.sslkillswitch3_1.4+rootful_iphoneos-arm.deb
+Size: 17186
+MD5sum: 9a524afce105c80fac035da8da5467d7
+SHA1: cc7e6fa34194920a5111ef14d3f4c2df167a4409
+SHA256: 812b1d1c7ab70d239118262bcb84fadbce363b728e2ce6e51e5be71e3792308a
+SHA512: cbf2aa7661e5bf0ce41573b665f48eb1cc452d68cbf654ee18f2f093ffdfac31c7b67ee99cd5861d0fbbbaf00bedcb5567fa74059ac9a9bd90c289f3c8bc4b18
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Name: SSL Kill Switch 3
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+
+Package: moe.misty.sslkillswitch3
+Architecture: iphoneos-arm64
+Version: 1.4+rootless
+Section: Tweaks
+Maintainer: NyaMisty <misty@misty.moe>
+Installed-Size: 196
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Filename: ./debians/moe.misty.sslkillswitch3_1.4+rootless_iphoneos-arm64.deb
+Size: 17230
+MD5sum: a99622b255492cec0eb44acc779c31a0
+SHA1: 5befc45402b72cbc0cb985c2665e7e203d7938ad
+SHA256: f1221e68b4117ec7045c4db285bb75b586e48b09c9ba212b1d688ba275188d3a
+SHA512: 555bedc941f7021a4fa7000901e87a04d217501abd602a36bbe1c04c059e6a0afc6db3888896d8706c06a49213e0d61394356c176e393a81f4a8fe6e7d3a0393
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Name: SSL Kill Switch 3
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+
 Package: ai.akemi.appsyncunified
 Architecture: iphoneos-arm64
 Version: 112.0
