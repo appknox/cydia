@@ -141,6 +141,41 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Appknox Metapackage
 
+Package: com.appknox.meta
+Architecture: iphoneos-arm
+Version: 1.0.1+rootful
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 4
+Depends: com.ex.substitute, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), libactivator (>=1.9.13)
+Filename: ./debians/com.appknox.meta_1.0.1+rootful_iphoneos-arm.deb
+Size: 884
+MD5sum: c53d8698afb83f50538417e49305cb84
+SHA1: 1d53c5b6e644ec3276953af9d952fa00a373376e
+SHA256: 4f6af334c797e04ecb961a3ccb299fe0b288ef13b78aec3cb12b1e41245b8b18
+SHA512: 051f940b2062f7f79bd7a13d463455f63ff0483b5031d3864a2fcea06d0ba2d0b68ab3214b0f6beb6d7ff289cc5cc09852c97fde2081355f25d8ad60b362a9e1
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
+Package: com.appknox.meta
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Depends: preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), com.opa334.altlist
+Filename: ./debians/com.appknox.meta_1.0.1+rootless_iphoneos-arm64.deb
+Size: 876
+MD5sum: 4e4d4b7b772bbf6d874b79e65a69c7b3
+SHA1: 4be123de8510feb747f3a02778b9515dca2cb251
+SHA256: 35d4f4de6d6bddce30696750c4ef6ba2315b808f303369e805c06c2836e22ef5
+SHA512: 27d91ca611a5fd0762501b41b9c08a3f2b6f510b32b55875f4778d5be9da7795ff55e1a80cb00b5e58971beaac8b0c9d29659c4defe3c6fb980643ff8bac2de6
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
 Package: com.appknox.open
 Architecture: iphoneos-arm
 Version: 1.2.1
@@ -488,4 +523,26 @@ SHA512: 15d851c97e8b9fe7f592cd62c1d6ab4f67636a3916aed42c576a9519d4df97a9e3cbfd95
 Description: A Bypass Jailbreak Detection Tweak!
 Name: HiddenJailbreak
 Author: Lê Thành Phúc <ltp.noobpk@gmail.com>
+
+Package: ai.akemi.appsyncunified
+Architecture: iphoneos-arm64
+Version: 112.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 676
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: ./debians/nodelete-rootless-ai.akemi.appsyncunified.deb
+Size: 49504
+MD5sum: 8c021dd4b7a708a879b3a3b60dab063b
+SHA1: 0bb7e3fe91b8034d229d268e33133eb727c247b7
+SHA256: 400913a5de0f78345e14ed3e05fedaacbf12bb280a443a2ca880e04396460e73
+SHA512: 23f3edb6f0a24d46d0942fd3ac5645c9e5b0913a814acb0d28038bb24dcb7d7a2fd810ccd22ec5b1992120ddcb8e6dc2fb6f6dd76020fbd710a100392a4e4885
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 
