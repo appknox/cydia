@@ -176,6 +176,41 @@ Tag: purpose::console, role::hacker
 Author: Appknox <engineering@appknox.com>
 Name: Appknox Metapackage
 
+Package: com.appknox.meta
+Architecture: iphoneos-arm
+Version: 1.0.2+rootful
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Installed-Size: 4
+Depends: com.ex.substitute, preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, inetutils, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), libactivator (>=1.9.13)
+Filename: ./debians/com.appknox.meta_1.0.2+rootful_iphoneos-arm.deb
+Size: 886
+MD5sum: 88cd98e977a6f14aa85d1676b9469173
+SHA1: 88e76a3531affbb28bedf721f57254a3c5054dff
+SHA256: e3c928b2a0cd9134be761595f30ffb837f2b2dafaea9c7b264b0f210d0f470f0
+SHA512: 4b8b55c5c017019e89d0295ebdeb36ae6a3711e2f8aadf150651517d3050f786f266d33a61795280326fbbc7440c758687639ca7257bddd83a72154e7a009d48
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
+Package: com.appknox.meta
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: System
+Maintainer: Appknox <engineering@appknox.com>
+Depends: preferenceloader, com.appknox.open, com.appknox.proxy, com.cosmosgenius.screendump13, com.kramerapps.jetsamctl, curl, openssh, com.autopear.installipa, network-cmds, me.noobpk.hiddenjailbreak (>= 1.0.1), com.opa334.altlist
+Filename: ./debians/com.appknox.meta_1.0.2+rootless_iphoneos-arm64.deb
+Size: 878
+MD5sum: 54335c398bd9ff4236ae8dd2956a1d76
+SHA1: 92f7d74f41050b6e1aa2789b838b6da06e7e07f2
+SHA256: 19e2801fa924c5bf9e4808deb3fe6ab91e320859d2d96aaaf0e5b59196e67d16
+SHA512: a6c187b1bd600e275c6fa65710d66d9a3c354e9aaff05bfd1b9ed67249b16598a3458b8f024e07646399572b3108196e1cd3d6629437341fb024ffb66d0fef8f
+Description: Meta installer Package
+Tag: purpose::console, role::hacker
+Author: Appknox <engineering@appknox.com>
+Name: Appknox Metapackage
+
 Package: com.appknox.open
 Architecture: iphoneos-arm
 Version: 1.2.1
