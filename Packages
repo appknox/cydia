@@ -602,15 +602,15 @@ Section: Tweaks
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 676
 Provides: appsync, net.angelxwind.appsyncunified
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 17.0)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Filename: ./debians/nodelete-rootless-ai.akemi.appsyncunified.deb
-Size: 49504
-MD5sum: 8c021dd4b7a708a879b3a3b60dab063b
-SHA1: 0bb7e3fe91b8034d229d268e33133eb727c247b7
-SHA256: 400913a5de0f78345e14ed3e05fedaacbf12bb280a443a2ca880e04396460e73
-SHA512: 23f3edb6f0a24d46d0942fd3ac5645c9e5b0913a814acb0d28038bb24dcb7d7a2fd810ccd22ec5b1992120ddcb8e6dc2fb6f6dd76020fbd710a100392a4e4885
+Size: 34308
+MD5sum: 9a16e96c1f359778e651bb36f9385b2a
+SHA1: 63e5d136b76255fa4c1a54ed58b7e14bf53a006b
+SHA256: 1abd582f3ff31c4a7930ba3970dc202776581a08eda8cdbd435e1caeb2f61154
+SHA512: 8e23b10114a265edd5b75626831e602f1e6b98cb8fad0979974483d406ab1bc9daf9efdb11f591dbd10fbd7ad433f6a285652e7d232b70cb41f0cd6c8ff00ae9
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
