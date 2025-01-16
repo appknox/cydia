@@ -508,6 +508,52 @@ Tag: role::hacker
 Name: jetsamctl
 Author: Conrad Kramer <conrad@kramerapps.com>
 
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm
+Version: 3.8.2
+Section: System
+Maintainer: jjolano, sammyjeng
+Installed-Size: 1092
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy, me.noobpk.hiddenjailbreak
+Replaces: me.jjolano.shadow.beta
+Filename: ./debians/me.jjolano.shadow_3.8.2_iphoneos-arm.deb
+Size: 101320
+MD5sum: f4ce105d43c5ffd1cd61b0f844442f5e
+SHA1: 49118c20d1c30ad19f6481543c0f550d0251f388
+SHA256: fdbc629d6e8a100fe0be66c03f3e162c47d2a532c010c3e34bb4d0eb674b64b5
+SHA512: 5af94fca1e301e618ad4c0d40ae128f1fc22a51473989eaa381512563a7fabbf2fda176c1ed9ad8d06e2b9e1a0dac347a3b5b2fbf4884f210617a8c0c12ef178
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64
+Version: 3.8.2
+Section: System
+Maintainer: jjolano, sammyjeng
+Installed-Size: 564
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy, me.noobpk.hiddenjailbreak
+Replaces: me.jjolano.shadow.beta
+Filename: ./debians/me.jjolano.shadow_3.8.2_iphoneos-arm64.deb
+Size: 70174
+MD5sum: 1980a93a44ac8a3a45f8a38aa78d6220
+SHA1: 03f92b9040d356211749718c4e00b5eb5ca0663f
+SHA256: d265a5768338c29bda4034c9bcc6a0f0d53c5d5c6699db29851881bdaa48d247
+SHA512: fec983afd471845ffc0f97a0325040b012721e12ccefa7b5d3fbe821446ca47fc6e2fc2fbc979f337e425de43b693587bd923ed1dd10d69d29bc1deae238912b
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
 Package: me.noobpk.hiddenjailbreak
 Architecture: iphoneos-arm
 Version: 1.0.1
