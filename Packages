@@ -516,17 +516,17 @@ Maintainer: jjolano, sammyjeng
 Installed-Size: 1092
 Provides: me.jjolano.shadow.beta
 Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.fishhook
+Recommends: mobilesubstrate, preferenceloader
 Suggests: com.ps.injectionfoundation
 Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy, me.noobpk.hiddenjailbreak
 Replaces: me.jjolano.shadow.beta
 Filename: ./debians/me.jjolano.shadow_3.8.2_iphoneos-arm.deb
-Size: 101320
-MD5sum: f4ce105d43c5ffd1cd61b0f844442f5e
-SHA1: 49118c20d1c30ad19f6481543c0f550d0251f388
-SHA256: fdbc629d6e8a100fe0be66c03f3e162c47d2a532c010c3e34bb4d0eb674b64b5
-SHA512: 5af94fca1e301e618ad4c0d40ae128f1fc22a51473989eaa381512563a7fabbf2fda176c1ed9ad8d06e2b9e1a0dac347a3b5b2fbf4884f210617a8c0c12ef178
+Size: 101434
+MD5sum: ff8842b733954491d1f33344491458b5
+SHA1: 1cd9213412d0eb6b7286014ca2a515944ca6d26c
+SHA256: 75ee421d4d7227659812f29202cc3962e03872eaabf12f0d5979ac0cbe322a02
+SHA512: 4560cfed9346b59b14e6cc5001e8c3b44f1b1162c90e24f952d968e7a930a39075e569891b2f7496e24bc33c8d810b72844b4087dac35f6cea09b6ad045f7c83
 Description: A modern jailbreak detection bypass.
 Name: Shadow
 Author: jjolano
@@ -539,17 +539,17 @@ Maintainer: jjolano, sammyjeng
 Installed-Size: 564
 Provides: me.jjolano.shadow.beta
 Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.fishhook
+Recommends: mobilesubstrate, preferenceloader
 Suggests: com.ps.injectionfoundation
 Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy, me.noobpk.hiddenjailbreak
 Replaces: me.jjolano.shadow.beta
 Filename: ./debians/me.jjolano.shadow_3.8.2_iphoneos-arm64.deb
-Size: 70174
-MD5sum: 1980a93a44ac8a3a45f8a38aa78d6220
-SHA1: 03f92b9040d356211749718c4e00b5eb5ca0663f
-SHA256: d265a5768338c29bda4034c9bcc6a0f0d53c5d5c6699db29851881bdaa48d247
-SHA512: fec983afd471845ffc0f97a0325040b012721e12ccefa7b5d3fbe821446ca47fc6e2fc2fbc979f337e425de43b693587bd923ed1dd10d69d29bc1deae238912b
+Size: 70206
+MD5sum: e8602d8469cc0ed28973e6be56771b8b
+SHA1: 323050daa3dab25c7738f7a9f818598dbb320558
+SHA256: 13f30f3015427f31265b279521f2995a873060521f18dc96fe5785ad96c18cbf
+SHA512: c9b78941c42e0801b990a076466761af5dd8f8042117d01105ea7a29a6933259a77be69d389b6cd7035ba17ef2a1d17dd8b6254b8c977d05f26fb4a2ff739ae4
 Description: A modern jailbreak detection bypass.
 Name: Shadow
 Author: jjolano
