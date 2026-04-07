@@ -545,6 +545,23 @@ Tag: role::hacker
 Name: jetsamctl
 Author: Conrad Kramer <conrad@kramerapps.com>
 
+Package: com.opa334.notrecording
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: opa334, sammyjeng
+Installed-Size: 360
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debians/com.opa334.notrecording_1.1.2_iphoneos-arm64.deb
+Size: 18548
+MD5sum: 48856fb758f36a45d4737a04aeab5d3d
+SHA1: be5cce5a91e7a6dfced8c01991c9641bb863c8bb
+SHA256: 3c16e64f23ab90ccd89dbd135dc3346bdf997d377b68fbeccfee56b536952940
+SHA512: f07570f5182f64eac6a4c9614d12682679b275dfdddd4ac45fc7200282dc6e7261ba335d6227a26316b19e78bdd84687f2151b858541de7e21c00c054db8e7cf
+Description: Spoof screen recording detection!
+Name: NotRecording
+Author: opa334
+
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
 Version: 3.8.2
